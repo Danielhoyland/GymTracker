@@ -176,6 +176,7 @@ My plan is to use SQLlite in the mobile application to store the data and show t
     - Name
     - Category
     - Cooldown (days)
+    - Priority (bool) - would make so everytime the user can train this muscle the app will let them
 - Main_Muscle_Exercise
     - Exercise_ID
     - Muscle_ID
@@ -204,11 +205,13 @@ My plan is to use SQLlite in the mobile application to store the data and show t
         - type_ID (fullbody/)
         - Suggestion_ID (no suggestion/same as last time/just above last time/progressive overload for weights)
         - Training 
-    - Height
+    - Height - can calculate kcal burned or BPMI if wanted
+    - Weight - can calculate kcal burned or BPMI if wanted
 - Exercise_setting
     - setting_id
     - exercise_id
     - active (bool)
+    - priority
 - Workout_type
     - ID
     - Type
