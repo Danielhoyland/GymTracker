@@ -1,0 +1,14 @@
+.idea/
+
+bin/
+gen/
+.gradle/
+build/
+.class
+*.iml
+*.iws
+*.ipl
+.DS_Store
+local.properties
+.externalNativeBuild
+.cxx
